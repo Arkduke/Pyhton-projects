@@ -17,7 +17,7 @@ tk.Label(ra,
 3. Mention the total number of student's data prived as it is mandatory.
 4. Write the name of the output file without any extention(by default .xlsx format).
 ''',fg='CYAN', bg='black', font=('comicsans', 12)).grid(row=3,column=1)
-img = tk.PhotoImage(file = r"C:\Users\Arkduke Sawer\Downloads\kvs-logo.png") 
+img = tk.PhotoImage(file = r".\kvs-logo.png") 
 img1 = img.subsample(12,12)
 tk.Label(ra, image = img1).grid(row = 0, column = 2, 
        columnspan = 2, rowspan = 2, padx = 5, pady = 5)
