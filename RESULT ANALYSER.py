@@ -19,10 +19,6 @@ tk.Label(ra,text='''USER MANUAL:
 ''',fg='CYAN', bg='black', font=('comicsans', 12)).grid(row=3,column=1)
 tk.Label(ra,text='--made by Arka Sarkar',fg='red', bg='black').grid(row=4,column=2)
 rd = os.path.dirname(os.path.realpath(__file__))
-ph=rd+'\\Resources'+'\kvs-logo.png'
-img = tk.PhotoImage(file = ph) 
-img1 = img.subsample(12,12)
-tk.Label(ra, image = img1).grid(row = 0, column = 2,columnspan = 2, rowspan = 2, padx = 5, pady = 5)
 e1 = tk.Entry(ra,width=70)
 e2 = tk.Entry(ra,width=70)
 e3=tk.Entry(ra,width=70)
